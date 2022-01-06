@@ -1,4 +1,5 @@
 import fastify from 'fastify';
+import { PORT, NODE_ENV } from '../config/constants';
 
 const server = fastify();
 
@@ -6,7 +7,7 @@ server.get('/ping', async (req, res) => {
 	return 'pong';
 });
 
-server.listen(8080, (err, address) => {
+server.listen(PORT, (err, address) => {
 	if (err) {
 		console.error(err);
 		process.exit(1);

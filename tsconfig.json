@@ -13,7 +13,8 @@
 	},
 	"include": [
 		"src/**/*.ts",
-		"test/**/*.ts"
+		"test/**/*.ts",
+		"config/**/*.ts"
 	],
 	"exclude": [
 		"node_modules"
