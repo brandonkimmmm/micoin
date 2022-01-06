@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "commonjs",
+		"lib": [
+			"es6"
+		],
+		"strict": true,
+		"allowJs": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true
+	},
+	"exclude": [
+		"node_modules"
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"root": true,
+	"env": {
+		"es6": true,
+		"node": true,
+		"mocha": true
+	},
+	"parser": "@typescript-eslint/parser",
+	"plugins": [
+		"@typescript-eslint",
+		"prettier"
+	],
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended",
+		"prettier"
+	],
+	"parserOptions": {
+		"ecmaVersion": 10
+	},
+	"rules": {
+		"prettier/prettier": "error",
+		"strict": ["error", "global"],
+		"@typescript-eslint/no-empty-interface": "off"
+	}
+}
